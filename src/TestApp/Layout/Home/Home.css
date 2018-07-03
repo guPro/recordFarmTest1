@@ -1,0 +1,226 @@
+
+
+.container{
+    align-content: center;
+}
+
+.recordListLi {
+    width: calc(100% / 7);
+    float: left;
+    Position: relative ;
+}
+
+
+.imageSection, .titleSection, .recordListLi, .artistSection{
+    width: calc(100% / 7);
+    position: relative;
+    float: left;
+}
+
+a, input, li, ul {
+    list-style-type: none;
+}
+ol, ul {
+    margin-bottom: 10px;
+}
+dl, ol, ul {
+    margin-top: 0;
+}
+
+
+article, aside, button, canvas, dd, details, dl, dt, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, header, menu, nav, ol, p, pre, section, summary {
+    font-family: RobotoRegular,'Noto Sans Korean','Apple SD Gothic Neo',"맑은 고딕","Malgun Gothic",Helvetica,Arial,sans-serif;
+}
+
+.recordTemplateCardRecentlyPlayedContainer .body {
+    overflow: hidden;
+    background: #FFF;
+    width: 107px;
+}
+
+
+.first{
+    background-image: url("http://www.recordfarm.com/assets/img/home/home_banner_BG1.JPG");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    align-content: center;
+}
+
+.recordList7{
+    display: inline;
+}
+
+.uploadBtn{
+    width: 160px;
+    line-height: 40px;
+    border-radius: 3px;
+    text-align: center;
+    color: #FFF;
+    background: #448DFE;
+    cursor: pointer;
+}
+
+.firstContent .secondContent{
+    background-color: white;
+}
+
+.third{
+    margin-top: 200px;
+    background-image: url('http://www.recordfarm.com/assets/img/home/ranking_BG.JPG');
+    height: 714px;
+    color: white;
+    align-content: center;
+}
+
+.thirdContent{
+    vertical-align: middle;
+    color: white;
+    width: 80vw;
+    margin-left: 10vw;
+    margin-bottom: 52px;
+}
+
+
+.homeRecordRank .content, .homeRecordRank .header, .homeSectionRecordRanking {
+    background-size: cover;
+    background-position: center;
+}
+
+.homeRecordRank .recordRankNo {
+    float: left;
+    width: 17%;
+    height: 38px;
+    line-height: 38px;
+    color: #AAA;
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.homeRecordRank .recordRankPlay {
+    display: none;
+    visibility: hidden;
+    float: left;
+    width: 17%;
+    height: 38px;
+    line-height: 38px;
+    color: #FFF;
+    text-align: center;
+    font-size: 25px;
+}
+
+.homeRecordRank .recordRankRight {
+    float: left;
+    width: 83%;
+    height: 38px;
+}
+.homeRecordRank .recordRankPlay {
+    display: none;
+    visibility: hidden;
+    float: left;
+    width: 17%;
+    height: 38px;
+    line-height: 38px;
+    color: #FFF;
+    text-align: center;
+    font-size: 25px;
+}
+
+.homeRecordRank .recordRankArtist, .homeRecordRank .recordRankTitle {
+    padding-right: 10px;
+    height: 19px;
+    line-height: 19px;
+    font-size: 11px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.iconPlayLight:before {
+    content: '\e851';
+}
+
+.iconPauseLight:before {
+    content: '\e855';
+}
+
+.homeRecordRank .header {
+    height: 130px;
+    border-radius: 3px 3px 0 0;
+    cursor: pointer;
+}
+.homeRecordRank .recordRankLi {
+    position: relative;
+    height: 58px;
+    padding: 10px 0;
+    color: #FFF;
+    cursor: pointer;
+}
+
+
+.homeRecordRank .content {
+    height: 290px;
+    border-radius: 0 0 3px 3px;
+}
+
+
+.homeRecordRank .content {
+    height: 290px;
+    border-radius: 0 0 3px 3px;
+}
+
+.homeRecordRank .header.pop {
+    background-image: url('http://www.recordfarm.com/assets/img/home/pop_260x140.JPG');
+}
+
+.homeRecordRank .content.pop {
+    background-image: url('http://www.recordfarm.com/assets/img/home/pop_260x290.JPG');
+}
+
+.homeRecordRank .header.hiphop {
+    background-image: url('http://www.recordfarm.com/assets/img/home/hiphop_260x140.jpg');
+}
+
+.homeRecordRank .content.hiphop {
+    background-image: url('http://www.recordfarm.com/assets/img/home/hiphop_260x290.JPG');
+}
+
+
+.homeRecordRank .header.acoustic {
+    background-image: url('http://www.recordfarm.com/assets/img/home/acoustic_260x140.jpg');
+}
+
+.homeRecordRank .content.acoustic {
+    background-image: url('http://www.recordfarm.com/assets/img/home/acoustic_260x290.JPG');
+}
+
+.homeRecordRank .header.rock {
+    background-image: url('http://www.recordfarm.com/assets/img/home/rock_260x140.jpg');
+}
+
+.homeRecordRank .content.rock {
+    background-image: url('http://www.recordfarm.com/assets/img/home/rock_260x290.JPG');
+}
+
+
+.homeRecordRank .content, .homeRecordRank .header, .homeSectionRecordRanking {
+    background-size: cover;
+    background-position: center;
+}
+
+.homeRecordRank .col-xs-6 {
+    margin-bottom: 30px;
+    padding: 0 11px;
+}
+
+
+.homeRecordRank .content, .homeRecordRank .header, .homeSectionRecordRanking {
+    background-size: cover;
+    background-position: center;
+}
+
+.second {
+    color:black;
+    position: relative;
+}

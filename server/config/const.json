@@ -1,0 +1,12 @@
+{
+  "APP_NAME" : "TestApp",
+  "DOMAIN" : "http://testApp.com",
+
+  "META_TITLE" : "테스트",
+  "META_DESCRIPTION" : "테스트 프레임워크",
+  "META_KEYWORD": "",
+  "META_IMAGE": "",
+
+  "admin": ["contact@recordfarm.co.kr"],
+  "admin_id": [""]
+}

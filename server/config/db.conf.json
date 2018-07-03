@@ -1,0 +1,12 @@
+{
+    "app": {
+        "connectionLimit": 50,
+        "waitForConnections": false,
+        "port": 3306,
+        "host" : "codecrain-dev.coviludadtqs.ap-northeast-2.rds.amazonaws.com",
+        "user" : "codecrain",
+        "password" : "codecrain2018",
+        "database" : "Test",
+        "charset" : "utf8"
+    }
+}
